@@ -20,7 +20,7 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-left: 15px;
+  padding-left: 15px; 
   padding-right: 15px;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .parallax-background {
-  background-color: #0078A0;
+  background-color: #2980b9;
   height: 620px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -83,22 +83,51 @@ body {
   background-size: cover;
   position: fixed;
   width: 100%;
+  i{
+    width: 700px;
+    margin: 0 auto;
+    padding:60px 0 0;
+    display: block;
+    animation-duration: 3s;
+    animation-name: slidein;
+    @keyframes slidein {
+      from {
+        margin-left: 1%;
+        width: 90%
+      }
+
+      to {
+        margin-left: 1%;
+        width: 60%;
+      }
+    }
+  }
 }
 
 .intro-text {
   font-size: 20px;
   color: #fff;
   text-align: center;
-  margin-top: 15%;
+  margin: 50px auto;
+  width: 80%;
 }
 
 .parallax-content {
   max-width: 100%;
   position: relative;
-  top: 500px;
+  top: 700px;
   font-size: 20px;
   background-color: #fff;
-  box-shadow:10px 0 0 0 #888888;
+  box-shadow:10px 0 0 0 #888888; 
+}
+
+
+
+
+#encuesta{
+margin: 40px 0;
+height: 300px;
+background: url("http://www.un.org/sustainabledevelopment/es/wp-content/uploads/sites/3/2015/09/SDGs-button-400-pixels_ES.jpg") no-repeat 31px 0px #e6f7ff;
 }
 
 
